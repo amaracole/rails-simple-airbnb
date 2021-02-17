@@ -9,6 +9,13 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+  <nav>
+    <a>Simple Airbnb</a>
+    <div>
+      <a> <%= link_to "Add Flat", new_flat_path %></a>
+    </div>
+  </nav>
+
   <body>
     <%= yield %>
   </body>
